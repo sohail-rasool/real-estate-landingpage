@@ -1,0 +1,329 @@
+@import url(./_variables.css);
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* banner-area Start */
+.banner-area {
+  background: url(../images/main-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+
+.banner-area .zindex-20 {
+  z-index: 20;
+}
+
+.banner-area .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+}
+
+/* banner-area end */
+
+/* section Start */
+.block .title-underline {
+  position: relative;
+}
+
+.block .title-underline::before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  background: #007bff;
+  bottom: -3px;
+}
+
+.block .outer-card {
+  border: 2px solid #007bff !important;
+  border-radius: 15px;
+}
+
+.block .outer-card .card-item {
+  border-radius: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.block .outer-card .card-item .item-img {
+  border-radius: 15px;
+}
+
+/* section end */
+
+/* properties Start */
+.properties-area .card {
+  border: 0;
+}
+
+.properties-area .card .ribbon {
+  top: 20px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* properties end */
+
+/* properties Start */
+.contact-us {
+  background: var(--dark);
+}
+
+/* properties End */
+
+
+/* Testimonial Start */
+.owl-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.owl-nav i {
+  font-size: 1.5rem;
+}
+
+.carousel-item {
+  margin: 20px;
+}
+
+/* Testimonial Start */
+
+/* Footer area Start */
+footer.footer-area {
+  background: var(--dark);
+}
+
+/* Footer area end */
+
+/* properties landing page css start */
+
+/* banner-area-properties Start */
+.banner-area-properties {
+  background: url(../images/main-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+}
+
+.banner-area-properties .zindex-20 {
+  z-index: 20;
+}
+
+.banner-area-properties .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+}
+
+.filter-area {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  z-index: 999;
+}
+
+/* banner-area-properties end */
+
+
+/* properties Start */
+.properties-area .card {
+  border: 0;
+}
+
+.properties-area .card .ribbon {
+  top: 20px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.pagination .page-link:hover {
+  background-color: var(--dark);
+  color: white !important;
+}
+
+/* properties end */
+
+/* properties landing page css end */
+
+
+/* Dedicates file css start */
+
+/* Header Section start */
+.dedicates-header .top-bar {
+  background: var(--dark);
+}
+
+.dedicates-header .navbar .nav-item {
+  margin-right: 30px;
+}
+
+.dedicates-header .navbar .nav-item .nav-link {
+  color: var(--dark);
+}
+
+.dedicates-header .navbar .nav-item:last-of-type {
+  margin-right: 0;
+}
+
+/* Header Section end */
+
+/* Banner area start */
+.banner-area-dedicates .img-item {
+  border-radius: 10px;
+}
+
+.banner-area-dedicates .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  border-radius: 10px;
+}
+
+/* Banner area end */
+
+
+/* Details area start */
+.details-area .items-info .img-icon {
+  height: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+/* Details area end */
+
+
+
+/* Accordian area start */
+.accordian-area .card {
+  border: 0;
+}
+
+.accordian-area .card .card-header {
+  border: 0;
+  background: transparent;
+}
+
+/* Accordian area end */
+
+
+/* Dedicates file css end */
+
+
+
+/* Media Query Start */
+@media (max-width: 1024px) {
+
+  /* Banner-area Css media query Start */
+  .banner-area h1 {
+    font-size: 1.2rem;
+  }
+
+  .banner-area p {
+    font-size: 0.875rem;
+  }
+
+  /* Banner-area Css media query end */
+
+  /* index file css start */
+
+  .block h1 {
+    font-size: 1.3rem;
+  }
+
+  .services-area img {
+    height: 100px;
+  }
+
+  .services-area h3 {
+    font-size: 1rem;
+  }
+
+  .services-area p {
+    font-size: 1rem;
+  }
+
+  .outer-card {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* index file css end */
+
+  .banner-area-properties h1 {
+    font-size: 1.2rem;
+  }
+
+  .banner-area-properties p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* index file css start */
+  .services-area .outer-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about-us .outer-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .properties-area .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .contact-us .outer-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial {
+    text-align: center;
+  }
+
+  .testimonial .outer-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial .w-75 {
+    width: 100% !important;
+  }
+
+  /* index file css end */
+
+  /* properties file css start */
+
+  .banner-area-properties .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* properties file css end */
+}
+
+/* Media Query end */

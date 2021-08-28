@@ -1,0 +1,20 @@
+/*   CSS Variables  */
+:root{
+    /* Font Family */ 
+    --font-OpenSans: 'OpenSans', cursive;
+    /* Font Family */ 
+    --font-poppins: 'Poppins', cursive;
+
+    --dark:#000000;
+}
+
+/*   Font Family  */
+@font-face{
+    font-family: 'OpenSans';
+    src: url(../../vendor/fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Poppins';
+    src: url(../../vendor/fonts/Poppins/Poppins-Regular.ttf);
+}
